@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+	<meta name="format-detection" content="telephone=no, address=no, email=no">
+	<meta name="Keywords" content="크리스피크림, 크리스피크림 글레이즈드, 오리지널 글레이즈드">
+	<meta name="Description" content="">
+	<title>krispykreme</title>
+	<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+	<script src="js/main.js"></script>
+	<link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <script src="slick/slick.js"></script>
+	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script> -->
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+    <header id="main_header">
+        <div class="header_top">
+            <h1><a href="#"><img src="image/logo_text.png" alt="크리스피크림 도넛 로고"></a></h1>
+        </div>
+        <div class="header_bottom">
+            <div class="header_bot_content">
+                <div class="gnb">
+                    <ul>
+                        <li>
+                            <a href=""><span>MENU</span></a>
+                            <div class="sub">
+                                <ul>
+                                    <li><a href="#">신제품</a></li>
+                                    <li><a href="#">도넛</a></li>
+                                    <li><a href="#">음료</a></li>
+                                    <li><a href="#">아이스크림</a></li>
+                                    <li><a href="#">브랜딩 제품</a></li>
+                                    <li><a href="#">제품 교환권</a></li>
+                                </ul>
+                                </div>	
+                        </li>
+                        <li>
+                            <a href=""><span>EVENT</span></a>
+                            <div class="sub">
+                                <ul>
+                                    <li><a href="#">진행중인 이벤트</a></li>
+                                    <li><a href="#">종료된 이벤트</a></li>
+                                    <li><a href="#">제휴 서비스</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href=""><span>STORE</span></a>
+                            <div class="sub">
+                                <ul>
+                                    <li><a href="#">매장찾기</a></li>
+                                    <li><a href="#">딜리버리</a></li>
+                                    <li><a href="#">가맹상담</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href=""><span>BRAND</span></a>
+                            <div class="sub">
+                                <ul>
+                                    <li><a href="#">브랜드 스토리</a></li>
+                                    <li><a href="#">히스토리</a></li>
+                                    <li><a href="#">도넛 극장</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href=""><span>SERVICE</span></a>
+                            <div class="sub">
+                                <ul>
+                                    <li><a href="#">공지사항</a></li>
+                                    <li><a href="#">고객의 소리</a></li>
+                                    <li><a href="#">문의답변</a></li>
+                                </ul>
+                            </div>
+                        </li>	
+                    </ul>
+                </div>
+                <div class="tab_box">
+                    <div class="member-box">
+                        <ul>
+                            <li><a href="#">LOGIN</a></li>
+                            <li><a href="#">JOIN</a></li>
+                        </ul>
+                    </div>
+                    <div class="ham_btn">
+                        <input type="checkbox" id="sitemap_btn">
+                        <label for ="sitemap_btn" class="sitemap_btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </label>
+                        <div class="site_map">
+                                <a href="#"><img src="image/logo_text.png" alt="크리스피크림 도넛 로고"></a>
+                                <ul class="map_wrapper">
+                                    <li class="map_list">
+                                        <h2>MENU</h2>
+                                        <ul class="map_list2">
+                                            <li><a href="#">신제품</a></li>
+                                            <li><a href="#">도넛</a></li>
+                                            <li><a href="#">음료</a></li>
+                                            <li><a href="#">아이스크림</a></li>
+                                            <li><a href="#">브랜딩 제품</a></li>
+                                            <li><a href="#">제품 교환권</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="map_list">
+                                        <h2>EVENT</h2>
+                                        <ul class="map_list2">
+                                            <li><a href="#">진행중인 이벤트</a></li>
+                                            <li><a href="#">종료된 이벤트</a></li>
+                                            <li><a href="#">제휴 서비스</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="map_list">
+                                        <h2>STORE</h2>
+                                        <ul class="map_list2">
+                                            <li><a href="#">매장 찾기</a></li>
+                                            <li><a href="#">딜리버리</a></li>
+                                            <li><a href="#">가맹상담</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="map_list">
+                                        <h2>BRAND</h2>
+                                        <ul class="map_list2">
+                                            <li><a href="#">브랜드 스토리</a></li>
+                                            <li><a href="#">히스토리</a></li>
+                                            <li><a href="#">도넛 극장</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="map_list">
+                                        <h2>SERVICE</h2>
+                                        <ul class="map_list2">
+                                            <li><a href="#">공지사항</a></li>
+                                            <li><a href="#">고객의 소리</a></li>
+                                            <li><a href="#">문의 답변</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+	<section id="content1" class="f_page">
+			<div class="slide_wrap">
+				<ul class="slide_list">
+					<li>
+						<a href="#">
+							<img src="image/banner1.png" alt="오리지널 글레이즈드 하프 더즌 1+1" class="desktop_img">
+							<img src="image/banner1-1.png" alt="오리지널 글레이즈드 하프 더즌 1+1" class="mobile_img">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="image/banner2.png" alt="파스퇴르-아이스크림 인사이드">
+							<img src="image/banner2-1.png" alt="파스퇴르-아이스크림 인사이드">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="image/banner3.png" alt="로투스 비스코프 도넛">
+						</a>
+					</li>
+				</ul>
+				<div class="slide_control">
+					<a href="#" class="prev">prev</a>
+					<a href="#" class="next">next</a>
+				</div>	
+			</div>
+		</div>
+		<div class="main_icon">
+			<ul>
+				<li>
+					<a href="#">
+						<span><img src="image/customer_icon.png" alt="고객의 소리 아이콘"></span>
+						고객의 소리
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span><img src="image/map_icon.png" alt="매장찾기 아이콘"></span>
+						매장찾기
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span><img src="image/store_icon.png" alt="가맹상담 아이콘"></span>
+						가맹상담
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span><img src="image/event_icon.png" alt="이벤트 아이콘"></span>
+						이벤트
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section id="content2" class="f_page">
+		<div class="container">
+			<h2><a href="#">DOUGHNUT TIME</a></h2>
+			<div class="menu_bar">
+				<ul>
+					<li><a href="#">NEW</a></li>
+					<li><a href="#">ICED</a></li>
+					<li><a href="#">GLAZED</a></li>
+					<li><a href="#">FILLED</a></li>
+					<li><a href="#">CAKE</a></li>
+					<li><a href="#">CHOCOLATE</a></li>
+				</ul>
+			</div>
+			<div class="menu_content">
+				<div class="menu_list">
+					<ul class="menu_slider">
+						<li class="slide_list">
+							<div class="menu_img">
+								<img src="image/menu_box_cheesecake.png" alt="뉴욕 치즈 케이크 도넛" class="show_box">
+								<img src="image/hide_menubox01.png" alt="뉴욕 치즈 케이크" class="hide_box">
+							</div>
+							<div class="menu_text">
+								<a href="#"><h3><span>뉴욕 치즈 케이크</span></h3></a>
+								<span>진한 크림치즈와 고소한<br>쿠키가 조화로운 도넛</span>
+							</div>
+						</li>
+						<li class="slide_list">
+							<div class="menu_img">
+								<img src="image/menu_box_raspberryfilled.png" alt="라즈베리 필드 초콜릿 도넛" class="show_box">
+								<img src="image/hide_menubox02.png" alt="라즈베리" class="hide_box">
+							</div>
+							<div class="menu_text">
+								<a href="#"><h3><span>라즈베리 필드 초콜릿</span></h3></a>
+								<span>라즈베리 젤리로<br>채워진 달콤한 도넛</span>
+							</div>
+						</li>
+						<li class="slide_list">
+							<div class="menu_img">
+								<img src="image/menu_box_peanutbutter.png" alt="리세스 피넛 버터 도넛" class="show_box">
+								<img src="image/hide_menubox03.png" alt="피넛버터" class="hide_box">
+							</div>
+							<div class="menu_text">
+								<a href="#"><h3><span>리세스 피넛버터</span></h3></a>
+								<span>허쉬의 초콜릿 아이싱과<br>땅콩 버터의 풍미로 가득한 도넛</span>
+							</div>
+						</li>
+						<li class="slide_list">
+							<div class="menu_img">
+								<img src="image/menu_box_cinnamonapple.png" alt="시나몬 애플파이 도넛" class="show_box">
+								<img src="image/hide_menubox04.png" alt="시나몬 애플파이" class="hide_box">
+							</div>
+							<div class="menu_text">
+								<a href="#"><h3><span>시나몬 애플파이</span></h3></a>
+								<span>고전적인 애플파이에<br>시나몬 사과가 어우러진 도넛</span>
+							</div>
+						</li>
+						<li class="slide_list">
+							<div class="menu_img">
+								<img src="image/menu_box_lemoncake.png" alt="글레이즈드 레몬 필드 도넛" class="show_box">
+								<img src="image/hide_menubox05.png" alt="레몬" class="hide_box">
+							</div>
+							<div class="menu_text">
+								<a href="#"><h3><span>글레이즈드 레몬 필드</span></h3></a>
+								<span>레몬 필링을 가득 채워<br>상큼하고 달콤한 도넛</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<a href="#" class="prev">prev</a>
+				<a href="#" class="next">next</a>
+			</div>
+		</div>
+	</section>
+
+	<section id="content3" class="f_page">
+			<div class="container">
+				<h2><a href="#"><span>EVENT</span>PLACE</a></h2>
+				<div class="eventbox_wrapper">
+					<div class="event_content">
+						<div class="img_box">
+							<a href="#"><img src="image/event_box1.png" alt="오! 잇츠데이 이벤트"></a>
+						</div>
+						<div class="event_text">
+							<a href="#">A Lucky Event</a>
+							<span>#롯데잇츠 #홈서비스 #신규가입 #쿠폰팩</span>
+						</div>
+					</div>
+					<div class="event_content">
+						<div class="img_box">
+							<a href="#"><img src="image/event_box2.png" alt="롯데이츠-랜덤박스 이벤트"></a>
+						</div>
+						<div class="event_text">
+							<a href="#">Monday's happiness</a>
+							<span>#롯데잇츠100%당첨쿠폰 #랜덤뽑기 #월요뽑츠</span>
+						</div>
+					</div>
+					<div class="event_content">
+						<div class="img_box">
+							<a href="#"><img src="image/event_box3.png" alt="오! 잇츠데이 이벤트"></a>
+						</div>
+						<div class="event_text">
+							<a href="#">Original Fresh Drip</a>
+							<span>#오리지널 프레시 드립 #커피 #홈카페 #인증하기</span>
+						</div>
+					</div>
+				</div>
+			</div>  
+	</section>
+
+	<section id="content4" class="f_page">
+			<div class="container">
+				<div class="sub_box">
+					<div class="post_box">
+						<div class="post_text">
+							<span>Always beside you</span>
+							<p>FIND A STORE</p>
+						</div>
+						<img src="image/find_store.png" alt="매장 찾기 그림">
+						<a href="#">매장찾기</a>
+					</div>
+				</div>
+				<div class="sub_box">
+					<div class="post_box">
+						<div class="post_text">
+							<span>Easy, Simple, Fun</span>
+							<p>DELIVERY SERVICE</p>
+						</div>
+						<img src="image/delivery.png" alt="딜리버리 서비스 그림">
+						<a href="#">딜리버리</a>
+					</div>
+				</div>
+				<div class="sub_box">
+					<div class="post_box">
+						<div class="post_text">
+							<span>85th Anniversary</span>
+							<p>BRAND STORY</p>
+						</div>
+						<img src="image/history.png" alt="히스토리 그림">						
+						<a href="#">히스토리</a>
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<section id="content5" class="f_page">
+			<div class="board_wrapper">
+				<div class="board_box">
+					<div class="tap_menu">
+						<ul>
+							<li>
+								<input type="radio" name="tabs" id="tab_menu01" checked>
+								<label for="tab_menu01">News</label>
+								<!-- <a href="tap_menu01" class="tap_btn">News</a> -->
+								<div class="tab_box01">
+									<ul class="tap_menu01">
+										<li><a href="#">호박&middot;유령 들어간 할로윈 신제품 출시</a><span>2022.09.11</span></li>
+										<li><a href="#">가을 대표 곡물을 활용한 도넛 3종 출시</a><span>2022.09.11</span></li>
+										<li><a href="#">네번째 시리즈 '도넛 플레인 블록' 출시</a><span>2022.09.03</span></li>
+										<li><a href="#">시그니처 컬러 담은 텀블러 2종 출시</a><span>2022.08.19</span></li>
+										<li><a href="">"창립 85주년" 기념 이벤트</a><span>2022.07.13</span></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<input type="radio" name="tabs" id="tab_menu02">
+								<label for="tab_menu02">Notice</label>
+								<!-- <a href="tap_menu02" class="tap_btn">Notice</a> -->
+								<div class="tab_box02">
+									<ul class="tap_menu02">
+										<li><a href="">시스템 점검 안내</a><span>2022.09.19</span></li>
+										<li><a href="">일상 속 방역실천(방역패스 안내)</a><span>2022.09.18</span></li>
+										<li><a href="">크리스피크림 도넛, 초콜릿 도넛 한정 판매</a><span>2022.08.13</span></li>
+										<li><a href="">TGI FRIDAYS 일부 제휴서비스 종료 안내</a><span>2022.07.12</span></li>
+										<li><a href="">크리스피크림 도넛, 월간 구독서비스 시작</a><span>2022.06.11</span></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="membership_box">
+						<div class="guide_text">
+							<span>가맹점 개설안내</span>
+							<a href="#">DISCOVER MORE</a>
+						</div>
+						<div class="guide_bg"></div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="inquiry_wrapper">
+				<div class="text_wrapper">
+					<p>고객센터를 통해 궁금증을 해결하세요</p>
+					<p>문의 접수함에 의견을 넣어보세요</p>
+				</div>
+				<a href="#">바로가기</a>
+			</div>
+			
+			<footer id="main_footer">
+				<div class="footer_content">
+					<h2><a href="#"><img src="image/logo_text.png" alt="크리스피크림 도넛 로고"></a></h2>
+					<p>서울특별시 금천구 벚꽃로 104 금천롯데타워</p>
+					<p>우편번호: 08606 / 대표문의 : 02-709-1114 (가맹문의, 행사안내 등)   사업자번호 : 106-81-23498 대표자 : 차우철</p>
+					<div class="sns_icon">
+						<ul>
+							<li><a href="#">페이스북</a></li>
+							<li><a href="#">인스타그램</a></li>
+							<li><a href="#">트위터</a></li>
+						</ul>
+					</div>
+					<address>
+						COPYRIGHT&copy;2013 KRISPY KREME DOUGHNUTS. ALL RIGHTS RESERVED
+					</address>	
+				</div>
+			</footer>
+	</section>
+</body> 
+</html>
